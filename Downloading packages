@@ -41,8 +41,8 @@ remotes::install_github("b-klaus/maEndToEnd", ref="master")
     library(enrichplot)
      
 #Formatting/documentation packages
-   #library(rmarkdown)
-   #library(BiocStyle)
+    library(rmarkdown)
+    library(BiocStyle)
     library(dplyr)
     library(tidyr)
 
