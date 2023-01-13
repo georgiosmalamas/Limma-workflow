@@ -31,7 +31,5 @@ idx_man_threshold <- apply(Biobase::exprs(palmieri_eset_norm), 1,
                           table(idx_man_threshold)
 
    idx_man_threshold
-   FALSE  TRUE 
-   10493 22804
-
+ 
 palmieri_manfiltered <- subset(palmieri_eset_norm, idx_man_threshold)
